@@ -72,3 +72,57 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/*FRAME*/
+.frame {
+  background-image: url(../public/images/background_screen.jpeg);
+  background-size: cover;
+}
+/*CONTAINER LOGIN*/
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*IMG AVATAR*/
+.imgAvatar {
+  border-radius: 100px;
+  background-color: #a1a1a1;
+  height: 160px;
+  aspect-ratio: 1/1;
+  background-image: url(../public/images/Profile_avatar_placeholder_large.png);
+background-size: cover;
+}
+
+/*INPUT*/
+/* From Uiverse.io by alexruix */ 
+.input {
+  width: 290px;
+  background-color: #212121;
+  color: #dcdcdc;
+  padding: .15rem .5rem;
+  min-height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+}
+
+input:focus {
+  border-bottom: 2px solid #5b5fc7;
+  border-radius: 4px 4px 2px 2px;
+}
+
+input:hover {
+  outline: 1px solid lightgrey;
+}
+
+/*FOOTER*/
+.footer {
+  position: absolute;
+  right:12px;
+  bottom: 12px;
+}
