@@ -104,17 +104,18 @@ background-size: cover;
 /* From Uiverse.io by alexruix */ 
 .input {
   width: 290px;
-  background-color: #5d5d5da3;
-  color: #dcdcdc;
+  background-color: #414141a3;
+  color: #e7e7e7;
   padding: .15rem .5rem;
   min-height: 40px;
   border-radius: 4px;
   outline: none;
   border: transparent 1px;
   line-height: 1.15;
-  box-shadow: 0px 10px 20px -18px;
+
   outline: none;
 }
+.input[type="password"]
 
 input:focus {
   border-bottom: 2px solid #878adc;

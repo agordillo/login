@@ -8,7 +8,7 @@ export default function MainScreen({ config, solved }) {
     <div className="containerLogin">
 <div className="imgAvatar"></div>
 <h2 className="userName">Name of user</h2>
-<input class="input" name="text" placeholder="Search..." type="search"></input>
+<input class="input" type="password" placeholder="" ></input>
  <p className="forgotPIN"> I forgot my PIN</p>
  </div> 
  
